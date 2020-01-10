@@ -5,7 +5,7 @@ if(isset($_GET['servername'])) {
 	$serverName = $_GET["servername"];
 }
 
-$memes = [
+$messages = [
   "Stealing printers",
   "Raiding the PD",
   "Robbing the bank",
@@ -35,10 +35,10 @@ $memes = [
   <div class="loading">
     <div class="wrapper">
       <img class="logo" src="assets/img/logo.png" alt="">
-      <h1 class="meme">
+      <h1>
         <?php
-          if (isset($memes)) {
-            echo $memes[array_rand($memes)] . '...';
+          if (isset($messages)) {
+            echo $messages[array_rand($messages)] . '...';
           } else {
             echo "Error: No Message Found";
           }
