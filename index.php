@@ -53,7 +53,7 @@ $messages = [
 <body>
   <div class="loading">
     <div class="wrapper">
-      <img class="logo" src="assets/img/logo.png" alt="">
+      <img class="logo" src="assets/img/logo.gif" alt="">
       <h1>
         <?php
           if (isset($messages)) {
@@ -73,8 +73,6 @@ $messages = [
           }
         ?>
       </h2>
-
-      <div class="loader"><div></div><div></div><div></div><div></div></div>
     </div>
   </div>
 </body>
